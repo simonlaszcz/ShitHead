@@ -1,0 +1,1 @@
+pasmo -v --bin ShitHead.asm ShitHead.bin
