@@ -1,0 +1,199 @@
+;	Face-up UDGs run A, 2, 3 .. K. Codes 1 - 13
+FACEUP_A
+defb %01111111
+defb %10000000
+defb %10011100
+defb %10100010
+defb %10100010
+defb %10111110
+defb %10100010
+defb %10100010
+
+FACEUP_B
+defb %01111111
+defb %10000000
+defb %10011100
+defb %10100010
+defb %10000010
+defb %10011100
+defb %10100000
+defb %10111110
+
+FACEUP_C
+defb %01111111
+defb %10000000
+defb %10011100
+defb %10100010
+defb %10001100
+defb %10000010
+defb %10100010
+defb %10011100
+
+FACEUP_D
+defb %01111111
+defb %10000000
+defb %10000100
+defb %10001100
+defb %10010100
+defb %10100100
+defb %10111110
+defb %10000100
+
+FACEUP_E
+defb %01111111
+defb %10000000
+defb %10111110
+defb %10100000
+defb %10111100
+defb %10000010
+defb %10000010
+defb %10111100
+
+FACEUP_F
+defb %01111111
+defb %10000000
+defb %10011100
+defb %10100000
+defb %10111100
+defb %10100010
+defb %10100010
+defb %10011100
+
+FACEUP_G
+defb %01111111
+defb %10000000
+defb %10111100
+defb %10000010
+defb %10000010
+defb %10000100
+defb %10001000
+defb %10010000
+
+FACEUP_H
+defb %01111111
+defb %10000000
+defb %10011100
+defb %10100010
+defb %10011100
+defb %10100010
+defb %10100010
+defb %10011100
+
+FACEUP_I
+defb %01111111
+defb %10000000
+defb %10011100
+defb %10100010
+defb %10011110
+defb %10000010
+defb %10000100
+defb %10011000
+
+FACEUP_J
+defb %01111111
+defb %10000000
+defb %10101110
+defb %10101010
+defb %10101010
+defb %10101010
+defb %10101010
+defb %10101110
+
+FACEUP_K
+defb %01111111
+defb %10000000
+defb %10000010
+defb %10000010
+defb %10000010
+defb %10000010
+defb %10100010
+defb %10011100
+
+FACEUP_L
+defb %01111111
+defb %10000000
+defb %10011100
+defb %10100010
+defb %10100010
+defb %10101010
+defb %10100100
+defb %10011010
+
+FACEUP_M
+defb %01111111
+defb %10000000
+defb %10100100
+defb %10101000
+defb %10110000
+defb %10101000
+defb %10100100
+defb %10100010
+
+;	Normal characters from the sinclair rom are copied into the gaps
+;	A,2-9
+HAND_SPACE	defb 0, 0, 0, 0, 0, 0, 0, 0
+HAND_A		defs 8
+HAND_2_9	defs 64
+
+HAND_10
+defb %00000000
+defb %01001100
+defb %01010010
+defb %01010010
+defb %01010010
+defb %01010010
+defb %01001100
+defb %00000000
+
+HAND_J		defs 8
+HAND_Q		defs 8
+HAND_K		defs 8
+
+SUITS_SPACE
+defb 0, 0, 0, 0, 0, 0, 0, 0
+
+SUITS_A
+defb %00000000
+defb %00100100
+defb %01100110
+defb %01111110
+defb %01111110
+defb %00111100
+defb %00011000
+defb %00000000
+
+SUITS_B
+defb %00000000
+defb %00011000
+defb %00111100
+defb %01111110
+defb %01111110
+defb %00111100
+defb %00011000
+defb %00000000
+
+defs 8
+
+SUITS_C
+defb %00000000
+defb %00011000
+defb %00111100
+defb %01111110
+defb %01111110
+defb %00011000
+defb %00111100
+defb %00000000
+
+defs 8
+defs 8
+defs 8
+
+SUITS_D
+defb %00000000
+defb %00011000
+defb %00000000
+defb %01011010
+defb %01011010
+defb %00011000
+defb %00111100
+defb %00000000

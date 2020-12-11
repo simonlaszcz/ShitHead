@@ -1,0 +1,15 @@
+
+Please feel free to distribute the game 'Shithead'.
+
+Regards,
+
+Simon Laszcz
+
+
+The following files were uploaded:
+
+Shithead.tap
+Shithead.tzx
+Shithead_loader.gif
+Shithead_ingame.gif
+Shithead_Permission.txt
