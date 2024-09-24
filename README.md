@@ -1,7 +1,7 @@
 # ShitHead
 Z80 source code for the Sinclair 48K ZX Spectrum game 'ShitHead'
 
-[](Release/shithead_loader.gif)
+![](Release/shithead_loader.gif)
 
 [WOS](https://worldofspectrum.org/archive/software/games/shithead-simon-laszcz)
 
