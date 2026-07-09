@@ -1,3 +1,5 @@
+Moved to: https://codeberg.org/simonlaszcz/ShitHead
+
 # ShitHead
 Z80 source code for the Sinclair 48K ZX Spectrum game 'ShitHead'
 
